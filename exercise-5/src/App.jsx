@@ -15,6 +15,7 @@ function App() {
                   key={data.id}
                   image={data.image}
                   name={data.name}
+                  class={data.class}
                 />
               ))}
             </ul>

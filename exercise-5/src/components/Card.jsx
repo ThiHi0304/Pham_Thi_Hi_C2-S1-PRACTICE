@@ -5,7 +5,6 @@ export default function Card(props) {
           <img src={props.image}/>
           <h3>{props.name}</h3>
           <p>{props.class}</p>
-          <p>{props.hobbies}</p>
         </button>
       </li>
     );
